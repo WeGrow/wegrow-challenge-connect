@@ -90,7 +90,8 @@ To go above and beyond, handle the `healthcheck` event. This event is sent over 
 Here's an example `healthcheck` event sent by your client:
 
 
-```{
+```
+{
 	type: "healthcheck",
 	stats: [
 		{
