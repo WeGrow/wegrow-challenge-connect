@@ -30,7 +30,13 @@ Team Connection
 Example Event
 -------------
 
-
+```
+{
+	"type": "team.connect",
+	"team_id": 1,
+	"ws_url": "http://localhost:8080/connect/to/team"
+}
+```
 
 Global RTM API
 --------------------------------
