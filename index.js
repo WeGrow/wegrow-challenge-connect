@@ -2,6 +2,7 @@
 
 var EventEmitter = require('events');
 var WebSocket = require('ws');
+var _ = require('lodash');
 
 var logger = require('./lib/logger');
 
@@ -9,7 +10,7 @@ var logger = require('./lib/logger');
 
 var clients = {};
 
-var BASE_URL = '';
+var BASE_URL = 'ws://52.26.138.58:8888';
 
 var log = logger.getLogger({
     module: 'GlobalClient'
@@ -35,15 +36,6 @@ function routeGlobalMessage(message) {
         //           props_received: 0
         //       }]
         //   }));
-        var stats = [];
-        Object.keys(clients).forEach(function(key) {
-            var client = clients[key];
-            stats.push(client.stats);
-        });
-        globalWS.send(JSON.stringify({
-            type: 'healthcheck',
-            stats: stats
-        }));
     }
 }
 
