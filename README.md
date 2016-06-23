@@ -7,6 +7,13 @@ There are two types of connections: Global and Team. The Global connection is us
 
 To start, open a web socket connection to the Global API and keep team connections alive :) And don't forget, have fun.
 
+Instructions
+--------
+* Download this repo.
+* Write a client that connects to the Global RTM API.
+* Connect new teams through the Team RTM API (keep these connections alive).
+* Once you've completed, zip up your work and send it to joseph@wegrow.co
+
 Example Sequence
 --------
 
