@@ -10,7 +10,7 @@ To start, open a web socket connection to the Global API and keep team connectio
 Instructions
 --------
 * Download this repo.
-* Build a client that connects to the global api and maintains connections for new teams.
+* Build a client that connects to the global api and maintains connections for new teams (The global connection is made within index.js for you).
 * Once you've completed, zip up your work and send it to joseph@wegrow.co
 
 Example Sequence
