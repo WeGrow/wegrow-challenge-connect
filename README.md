@@ -10,8 +10,7 @@ To start, open a web socket connection to the Global API and keep team connectio
 Instructions
 --------
 * Download this repo.
-* Write a client that connects to the Global RTM API.
-* Connect new teams through the Team RTM API (keep these connections alive).
+* Build a client that connects to the global api and maintains connections for new teams.
 * Once you've completed, zip up your work and send it to joseph@wegrow.co
 
 Example Sequence
